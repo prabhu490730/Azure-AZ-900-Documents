@@ -1,0 +1,42 @@
+{
+  "id": "/subscriptions/ab340696-0008-4f50-90f1-7e09ac52d1a3/resourceGroups/VstsRG-AzureDevOpsPrt-e237/providers/Microsoft.Resources/deployments/Deploy_DevOps_Project_AzureDevOpsPrt",
+  "name": "Deploy_DevOps_Project_AzureDevOpsPrt",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/ab340696-0008-4f50-90f1-7e09ac52d1a3/resourcegroups/VstsRG-AzureDevOpsPrt-e237/providers/Microsoft.DevOps/pipelines/AzureDevOpsPrt",
+    "marketplaceItemId": "Microsoft.AzureProject"
+  },
+  "properties": {
+    "templateHash": "16326604517672080826",
+    "parameters": {
+      "azureAuth": {
+        "type": "SecureString"
+      },
+      "repository_auth": {
+        "type": "SecureObject"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Running",
+    "timestamp": "2021-09-19T16:55:40.2504989Z",
+    "duration": "PT4.6785903S",
+    "correlationId": "491f58e3-b1e2-4770-a0e4-6f74f4c4d7fd",
+    "providers": [
+      {
+        "namespace": "Microsoft.DevOps",
+        "resourceTypes": [
+          {
+            "resourceType": "pipelines",
+            "locations": [
+              "centralus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": []
+  }
+}
